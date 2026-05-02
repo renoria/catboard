@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catboard</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Quaderno del Gattile</h1>
+  </header>
+
+  <!-- MAIN -->
+  <main id="app">
+
+    <!-- DASHBOARD -->
+    <section class="card">
+      <h2>Attività recente</h2>
+      <ul>
+        <li>🐱 Nuovo gatto arrivato: Luna</li>
+        <li>🧼 Lettiere pulite (mattino)</li>
+        <li>🍗 Scorte crocchette quasi finite</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Necessità urgenti</h2>
+      <ul>
+        <li class="urgent">⚠️ Servono coperte</li>
+        <li class="urgent">⚠️ Mancano crocchette kitten</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Turni oggi</h2>
+      <ul>
+        <li>Mattina → Anna</li>
+        <li>Pomeriggio → Marta</li>
+        <li>Sera → Giulia</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- NAVBAR -->
+    <nav class="bottom-nav">
+        <button class="nav-btn active" onclick="loadView('dashboard')" data-view="dashboard">
+            <span class="icon">🏠</span>
+            <span class="label">Home</span>
+        </button>
+
+        <button class="nav-btn" onclick="loadView('cats')" data-view="cats">
+            <span class="icon">🐱</span>
+            <span class="label">Gatti</span>
+        </button>
+
+        <button class="nav-btn" onclick="loadView('supplies')" data-view="supplies">
+            <span class="icon">📦</span>
+            <span class="label">Scorte</span>
+        </button>
+
+        <button class="nav-btn" onclick="loadView('shifts')" data-view="shifts">
+            <span class="icon">🕒</span>
+            <span class="label">Turni</span>
+        </button>
+
+        <button class="nav-btn" onclick="loadView('more')" data-view="more">
+            <span class="icon">⋯</span>
+            <span class="label">Altro</span>
+        </button>
+    </nav>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

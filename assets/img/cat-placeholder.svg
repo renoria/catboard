@@ -1,0 +1,20 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="12" fill="#F5F5F5"/>
+  
+  <!-- Icona gatto stilizzata -->
+  <circle cx="50" cy="55" r="20" fill="#E0E0E0"/>
+  <polygon points="35,35 45,20 50,35" fill="#E0E0E0"/>
+  <polygon points="65,35 55,20 50,35" fill="#E0E0E0"/>
+
+  <!-- Occhi -->
+  <circle cx="43" cy="55" r="3" fill="#888"/>
+  <circle cx="57" cy="55" r="3" fill="#888"/>
+
+  <!-- Naso -->
+  <circle cx="50" cy="62" r="2" fill="#AAA"/>
+
+  <!-- Testo -->
+  <text x="50%" y="90%" text-anchor="middle" font-size="8" fill="#999" font-family="Arial">
+    Cat
+  </text>
+</svg>

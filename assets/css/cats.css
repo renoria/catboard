@@ -1,0 +1,134 @@
+/* HEADER PAGINA */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.page-header h2 {
+  color: #E53935;
+}
+
+/* BOTTONE AGGIUNGI */
+.add-btn {
+  background: #E53935;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn:active {
+  transform: scale(0.95);
+}
+
+/* LISTA */
+.cats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* CARD */
+.cat-card {
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* FOTO */
+.cat-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* INFO */
+.cat-info h3 {
+  font-size: 15px;
+}
+
+.cat-info p {
+  font-size: 12px;
+  color: #666;
+}
+
+/* BADGES */
+.badges {
+  margin-top: 5px;
+  display: flex;
+  gap: 6px;
+}
+
+.badge {
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* =========================
+   SALUTE (FORTE)
+   ========================= */
+
+.badge.healthy {
+  background: #E8F5E9;
+  color: #2E7D32;
+}
+
+.badge.observation {
+  background: #FFF8E1;
+  color: #F9A825;
+}
+
+.badge.sick {
+  background: #FDECEC;
+  color: #B71C1C;
+}
+
+
+/* =========================
+   ADOTTABILITÀ (MEDIA)
+   ========================= */
+
+.badge.adoptable {
+  background: #F0F7F1;   /* più spento del verde salute */
+  color: #2E7D32;
+}
+
+.badge.distance {
+  background: #FFFBEA;   /* giallo più soft */
+  color: #E6A700;
+}
+
+.badge.not-adoptable {
+  background: #FBE9E9;   /* rosso meno intenso */
+  color: #C62828;
+}
+
+
+/* =========================
+   COMPORTAMENTO (LEGGERA)
+   ========================= */
+
+.badge.friendly {
+  background: #F7FBF7;   /* quasi neutro */
+  color: #4CAF50;
+}
+
+.badge.cautious {
+  background: #FFF7ED;   /* arancio molto soft */
+  color: #FB8C00;
+}
+
+.badge.feral {
+  background: #FCEFF1;   /* rosino molto chiaro */
+  color: #D81B60;       /* rosso/rosa diverso → distingue */
+}

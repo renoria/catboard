@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "gender": "Femmina",
+    "age": 2,
+    "adoption": "adoptable",
+    "health": "healthy",
+    "behavior": "friendly",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 2,
+    "name": "Milo",
+    "gender": "Maschio",
+    "age": 1,
+    "adoption": "distance",
+    "health": "observation",
+    "behavior": "cautious",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 3,
+    "name": "Nuvola",
+    "gender": "Femmina",
+    "age": 4,
+    "adoption": "not-adoptable",
+    "health": "sick",
+    "behavior": "feral",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 4,
+    "name": "Leo",
+    "gender": "Maschio",
+    "age": 3,
+    "adoption": "adoptable",
+    "health": "healthy",
+    "behavior": "cautious",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 5,
+    "name": "Maya",
+    "gender": "Femmina",
+    "age": 5,
+    "adoption": "distance",
+    "health": "healthy",
+    "behavior": "friendly",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 6,
+    "name": "Rocky",
+    "gender": "Maschio",
+    "age": 6,
+    "adoption": "not-adoptable",
+    "health": "observation",
+    "behavior": "feral",
+    "image": "assets/img/cat-placeholder.svg"
+  },
+  {
+    "id": 7,
+    "name": "Stella",
+    "gender": "Femmina",
+    "age": 1,
+    "adoption": "adoptable",
+    "health": "healthy",
+    "behavior": "friendly",
+    "image": "assets/img/cat-placeholder.svg"
+  }
+]
